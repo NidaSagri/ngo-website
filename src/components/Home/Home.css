@@ -199,42 +199,97 @@
         margin-bottom: 15rem;
     }
 
-    .card{
-        width: 45rem;
-        height: 30rem;
-        margin-top: 5rem;
-        margin-left: 26rem;
-    
-    
+    .card {
+        width: 63rem;
+        height: 40rem;
+        margin-top: 7rem;
+        margin-left: 35rem;
+        font-size: 3rem;
     }
 
-    .container2{
+    .icon {
+        font-size: 5rem;
+    }
+
+    .card h3{
+        font-size: 3rem;
+        margin-top: 4rem;
+    }
+
+    .container2, .container3, .container4{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        width: 100vw;
-display: block;
+        width: 71rem;
+        height: 175rem;
+        margin-top: -1rem;
+        padding: 5rem 8rem;
+    }
 
+    .container2 .section1 img {
+        width: 54rem;
+        height: 52rem;
+    }
+
+    .container2 h2, .container3 h2, .container4 h2 {
+        font-size: 5rem;
+        font-weight: 400;
+        letter-spacing: 4px;
+        margin-top: 6.2rem;
+    }
+
+    .container2 h5, .container3 h5, .container4 h5 {
+        font-size: 7.8rem;
+        font-weight: 700;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 3rem;
+        margin-top: 4.2rem;
+    }
+
+    .container2 p, .container3 p {
+        text-align: left;
+        font-size: 3.2rem;
+        font-weight: 400;
+        margin-bottom: 9rem;
+    }
+
+    .container3 .section1 img {
+        margin-top: 8rem;
+        width: 54rem;
+        margin-left: 0rem;
+    }
+
+    .container4 p{
+        font-size: 2.25rem;
+    }
+
+    .container4 {
+        height: 101rem;
+        padding: 0px 8rem;
+    }
+
+    .container4 h5 {
+        font-size: 6rem;
+        margin-top: 10rem;
+    }
+
+    .btn1 {
+        padding: 3rem 3rem;
+        margin-right: 2.6rem;
+        font-size: 2.2rem;
     }
 
     .carousel-inner{
-        width: 70rem;
+        width: 72rem;
     }
     .carousel-control-next {
-        right: -36rem;
+        right: -44rem;
     }
-    
-
-    .container3{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        display: block;
-
+    .carousel-control-prev {
+        left: 44px;
     }
+
 }

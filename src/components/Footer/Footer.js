@@ -9,9 +9,9 @@ const Footer = () => {
         <div className="getintouch">GET IN TOUCH</div>
         <div className="contactinfo">
         <h5>Contact Info</h5>
-        <p><i class="fa-brands fa-whatsapp"></i>WhatsApp: +91-6306266557</p>
-        <p><i class="fa-solid fa-phone"></i>Calling: +91- 8318500748</p>
-        <p><i class="fa-regular fa-envelope"></i>career@nayepankh.com</p>
+        <p><i class="fa-brands fa-whatsapp"></i> WhatsApp: +91-6306266557</p>
+        <p><i class="fa-solid fa-phone"></i> Calling: +91- 8318500748</p>
+        <p><i class="fa-regular fa-envelope"></i> career@nayepankh.com</p>
         <div className="contactdiv">
         <i class="fa-brands fa-facebook"></i>
         <i class="fa-brands fa-instagram"></i>
