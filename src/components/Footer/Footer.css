@@ -1,0 +1,47 @@
+.footercontainer{
+    display: flex;
+    background-color: #151515;
+    color: #fff;
+    height: 30rem;
+    padding: 5rem;
+}
+
+.footercontainer div{
+    margin-right: 7.5rem;
+    width: 40%;
+}
+
+.footercontainer i{
+    margin-right: 7px;
+}
+
+.footercontainer p{
+    color: #7e8690;
+    line-height: 25px;
+    font-size: 1.1rem;
+}
+
+.getintouch{
+    font-size: 3.5rem;
+    width: 50%;
+    font-weight: 700;
+    text-align: left;
+}
+
+.contactdiv i{
+    font-size: 1.4rem;
+    margin-right: 10px;
+}
+.footercontainer h5{
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 3rem;
+}
+
+@media screen and  (max-width: 600px){
+    .footercontainer{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
