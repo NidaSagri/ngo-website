@@ -14,7 +14,7 @@ const Reviews = () => {
   }, []);
 
   const handleSubmit = () => {
-    axios.post('http://localhost:5000/api/reviews', { username, review })
+    axios.post('https://ngo-website-mu.vercel.app/api/reviews', { username, review })
       .then((response) => setReviews([...reviews, response.data]))
       .catch((error) => console.error(error));
 
