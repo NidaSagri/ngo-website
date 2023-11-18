@@ -26,6 +26,7 @@ const Navbar=()=> {
         <li className="nav-item"><Link className="nav-link" to="/ourCertificates">Our Certificates</Link></li>
         <li className="nav-item"><Link className="nav-link" to="/newspaperRecog">News Paper Recognition</Link></li>
         <li className="nav-item"><Link className="nav-link" to="/donate">Donate</Link></li>
+        <li className="nav-item"><Link className="nav-link" to="/api/reviews">Reviews</Link></li>
 
         {isAuthenticated?  <li><button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
       Log Out</button></li> : <li><button onClick={() => loginWithRedirect()}>Log In</button></li>}

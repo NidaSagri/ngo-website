@@ -173,8 +173,9 @@ const Home = () => {
           <h5>"If we all do something, then together there is no problem that we cannot solve!"</h5>
           <h2>PRASHANT SHUKLA</h2>
           <p>Founder & President, NayePankh Foundation</p>
-        </div>
+          <a href="/feedback"><button className="feedbackBtn" >Feedback</button></a>
 
+        </div>
 
       </div>
     </>
