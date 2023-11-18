@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(bodyParser.json());
 
 // MongoDB Connection
-mongoose.connect('mongodb://127.0.0.1:27017/communityDB');
+mongoose.connect('mongodb+srv://nidasagri:nayepankh@cluster0.s7hh9vq.mongodb.net/CommunityretryWrites=true&w=majority');
 
 const communitySchema = new mongoose.Schema({
   username: {
