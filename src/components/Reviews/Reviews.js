@@ -8,7 +8,7 @@ const Reviews = () => {
   const [review, setReview] = useState('');
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/reviews')
+    axios.get('https://ngo-website-mu.vercel.app/api/reviews')
       .then((response) => setReviews(response.data))
       .catch((error) => console.error(error));
   }, []);
