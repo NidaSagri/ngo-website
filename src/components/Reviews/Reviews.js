@@ -8,13 +8,13 @@ const Reviews = () => {
   const [review, setReview] = useState('');
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/reviews')
+    axios.get('https://ngo-website-obtp.vercel.app/api/reviews')
       .then((response) => setReviews(response.data))
       .catch((error) => console.error(error));
   }, []);
 
   const handleSubmit = () => {
-    axios.post('http://localhost:5000/api/reviews', { username, review })
+    axios.post('https://ngo-website-obtp.vercel.app/api/reviews', { username, review })
       .then((response) => setReviews([...reviews, response.data]))
       .catch((error) => console.error(error));
 
